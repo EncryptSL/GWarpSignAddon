@@ -1,0 +1,20 @@
+messages:
+  pluginEnable: '&a[&eGWarp&a] Addon: &2GSignAddon &aEnabled !'
+  pluginDisable: '&a[&eGWarp&a] Addon &2GSignAddon &cDisabled !'
+  pluginReload: '&aPlugin successfuly reloaded !'
+  pluginHookSuccess: Plugin GWarp found () -> status okay !
+  pluginHookError: 'Plugin GWarp no found please install this plugin from: \nhttps://www.spigotmc.org/resources/gwarp-warp-home-plugin-1-7-x-1-14-x.56824/
+    !'
+  playerSuccessCreate: '&a[&eGWarp&a] You create success signWarp !'
+  playerSuccessWarp: '&a[&eGWarp&a] You are teleported on warp &2(&a%warpName%&2)&a
+    !'
+  playerLockedWarp: '&a[&eGWarp&a] &cSorry but this warp %warpName% is locked !'
+  playerNoExistWarp: '&a[&eGWarp&a] &cSorry but this warp %warpName% doesnt exist
+    !'
+  playerPermissionsBreakError: '&cYou dont have permissions for destroy GWarpSign
+    !'
+  playerPermissionsPlaceError: '&cYou dont have permissions for place GWarpSign !'
+  signRequireError: '&a[&eGWarp&a] &cSecond line must be have name of warp !'
+setup:
+  signRequireHeader: '[WARP]'
+  signReplaceHeader: '&6WARP'

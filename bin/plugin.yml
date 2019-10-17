@@ -1,0 +1,19 @@
+name: GWarpSignAddon
+main: org.EncryptSL.gwarp.addon.GWarpSign
+version: 1.0-SNAPSHOT
+api-version: 1.14
+description: With this command you can create WarpTeleport sign, this is addon for GWarp Plugin !
+author: [EncryptSL]
+depend: [GWarp]
+
+commands:
+   gWarpSignReload:
+      description: With this command you can reload configuration of addon GWarpSign !
+
+permissions:
+   gwarp.addon.sign.reload:
+      default: op
+   gwarp.addon.sign.beak:
+      default: op
+   gwarp.addon.sign.place:
+      default: op
